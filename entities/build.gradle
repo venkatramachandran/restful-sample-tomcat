@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+dependencies {
+  compile "org.eclipse.persistence:javax.persistence:2.1.0"
+  compile "org.eclipse.persistence:eclipselink:2.5.0"
+  compile "mysql:mysql-connector-java:5.1.30"
+}

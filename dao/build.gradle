@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+  compile project(':entities')
+  compile "org.glassfish.hk2:core:${hk2Version}"
+  compile "org.glassfish.hk2.external:javax.inject:${hk2Version}"
+  compile "org.glassfish.hk2:hk2-utils:${hk2Version}"
+  compile "org.glassfish.hk2:hk2-api:${hk2Version}"
+  compile "org.glassfish.hk2:hk2-metadata-generator:${hk2Version}"
+}

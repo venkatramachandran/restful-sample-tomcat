@@ -1,0 +1,15 @@
+apply plugin: 'war'
+
+war {
+  archiveName 'j2eesample.war'
+}
+
+configurations {
+  provided
+}
+
+dependencies {
+  compile project(':api')
+  compile "org.glassfish.jersey.containers:jersey-container-servlet-core:$jerseyVersion"
+}
+
