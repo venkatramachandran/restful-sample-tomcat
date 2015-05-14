@@ -11,5 +11,7 @@ configurations {
 dependencies {
   compile project(':api')
   compile "org.glassfish.jersey.containers:jersey-container-servlet-core:$jerseyVersion"
+  compile "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:$jacksonVersion"
+  compile "org.glassfish.jersey.media:jersey-media-json-jackson:$jerseyVersion"
 }
 

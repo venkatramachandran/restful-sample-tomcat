@@ -1,7 +1,6 @@
 apply plugin: 'java'
 
 dependencies {
-  compile "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:$jacksonVersion"
   compile "com.fasterxml.jackson.core:jackson-core:$jacksonVersion"
   compile "org.glassfish.jersey.core:jersey-common:$jerseyVersion"
   compile "javax.inject:javax.inject:1"
